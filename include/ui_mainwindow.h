@@ -45,6 +45,7 @@ public:
         lineEditInput->setGeometry(QRect(140, 30, 113, 26));
         lineEditOutput = new QLineEdit(MainWindow);
         lineEditOutput->setObjectName("lineEditOutput");
+        lineEditOutput->setEnabled(false);
         lineEditOutput->setGeometry(QRect(140, 70, 113, 26));
         labelInput = new QLabel(MainWindow);
         labelInput->setObjectName("labelInput");
